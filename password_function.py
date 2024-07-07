@@ -15,8 +15,11 @@ def password_generator():
     random3 = random.choice(combined_to_list)
     random4 = random.choice(combined_to_list)
     random5 = random.choice(combined_to_list)
+    random6 = random.choice(combined_to_list)
+    random7 = random.choice(combined_to_list)
+    random8 = random.choice(combined_to_list)
 
-    password= random1 + random2 + random3 + random4 + random5
+    password= random1 + random2 + random3 + random4 + random5 + random6 + random7 +random8
     print(password)
     
 
