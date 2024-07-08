@@ -12,7 +12,7 @@ names = [
     ("Binod Rayamajhee", "Microbiology")
 ]
 
-### Fina All From Microbiology Department
+### Find All From Microbiology Department
 microbiology_names = [name for name in names if name[1] == "Microbiology"]
 
 for i in microbiology_names:
